@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Model files (too large for git)
+models/prod/*.cbm
+models/experiments/*.cbm
+
+# Data files (optional - depends on size)
+# Uncomment if your data files are large (>100MB)
+# data/raw_data/csv/*.csv
+# data/raw_data/parquet/*.parquet
+# data/prod_data/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
